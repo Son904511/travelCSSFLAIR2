@@ -114,10 +114,16 @@ footer {
 .hero-section{
     margin: 50px 0;
 }
-@media (max-width: 768px) {
+@media (max-width: 911px) {
     .content-right {
         flex-direction: column;
         text-align: center;
+    }
+    .card-img{
+        width: 100%;
+    }
+    .card_container {
+        width: 50%;
     }
     }   
 
@@ -151,6 +157,7 @@ footer {
     border-radius: 8px;
     margin: 1rem;
     transition: all 200ms ease-in-out;
+    height:auto;
     
 }
 .content1{
